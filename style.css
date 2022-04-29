@@ -1,0 +1,51 @@
+/* adding css reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow: hidden;
+}
+
+.container{
+    background-image: url("background.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.taskbar img{
+    position: absolute;
+    bottom: 0;
+    z-index: 100000;
+    width: 100vw;
+    height: 4.9vh;
+}
+.startmenu img{ 
+    position: absolute;
+    top: auto;
+    z-index: 99;
+    height: 65vh;
+    /* width: 47vw;
+    height: 100vh; */
+    bottom: -150vh;
+    transition: all 0.5s ease-in;
+    /* on taskbar pop up     bottom: 5vh; */
+
+}
+#click_me{
+    position: absolute;
+    top: 10vh;
+}
+#click_img{
+    position: absolute;
+    z-index: 5000000;
+    width: 40vw;
+}
+#img_center{
+    display: none;
+    /* display: flex; */
+    justify-content: center;
+    align-content: center;
+    /* transition: all 0.5s ease-in; */
+}
